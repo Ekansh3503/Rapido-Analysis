@@ -12,10 +12,10 @@ The primary objective of this project is to help understand operational bottlene
 ## 🧰 Tools & Technologies
 
 * Power BI Desktop
-* Power Query (Data Cleaning & Transformation)
+* Google Sheets (Data Cleaning & Transformation)
 * DAX (KPI Calculations)
 * Data Modeling
-* Data Visualization
+* Power Point (Data Slice Background)
 
 ---
 
@@ -29,30 +29,43 @@ The primary objective of this project is to help understand operational bottlene
 
 # 📈 Dashboard Overview
 
-## 🔹 Overall Performance Dashboard
+## 🔹 Booking Status Breakdown
 
-![Overall Dashboard]([images/Overall.jpg](https://github.com/Ekansh3503/Rapido-Analysis/blob/main/Overall.jpg))
-
-### Key Metrics
-
-* Total Bookings: **103,024**
-* Successful Bookings: **63,967**
-* Cancelled Bookings: **28,933**
-* Cancellation Rate: **28.08%**
-
-### Insights
-
-* Around **62% bookings were successful**
-* Nearly **1 out of 3 rides got cancelled**
-* Ride volume remained stable throughout the month
-
-📌 *High cancellation rate indicates scope for operational improvement.*
+![Booking Status](Overall.jpg)
 
 ---
 
-## 🔹 Booking Status Breakdown
+## 🔹 Vehicle Type Performance
 
-![Booking Status](images/Overall.jpg)
+![Vehicle Type Dashboard](Vehicle-Type.jpg)
+
+### Insights
+
+* **E-Bike and Prime Sedan** generate the highest booking value
+* **Auto rides cover short distances**, suitable for last-mile travel
+* Bikes and E-Bikes contribute significantly to total distance traveled
+
+📌 *Different vehicle types serve different trip purposes.*
+
+---
+
+## 🔹 Revenue Analysis
+
+![Revenue Dashboard](Revenue.jpg)
+
+### Revenue by Payment Method
+
+* **Cash:** Highest contribution (~₹19M)
+* **UPI:** Second highest (~₹14M)
+* **Credit & Debit Cards:** Very low usage
+
+📌 *Cash dominates payments — digital adoption has strong growth potential.*
+
+---
+
+## 🔹 Cancellation Analysis
+
+![Cancellation Dashboard](Cancellation.jpg)
 
 * Success: **62.09%**
 * Cancelled by Driver: **17.89%**
@@ -60,12 +73,6 @@ The primary objective of this project is to help understand operational bottlene
 * Driver Not Found: **9.83%**
 
 📌 *Driver-side cancellations are higher than customer cancellations.*
-
----
-
-## 🔹 Cancellation Analysis
-
-![Cancellation Dashboard](images/Cancellation.jpg)
 
 ### Customer Cancellations
 
@@ -87,37 +94,9 @@ Top reasons:
 
 ---
 
-## 🔹 Revenue Analysis
-
-![Revenue Dashboard](images/Revenue.jpg)
-
-### Revenue by Payment Method
-
-* **Cash:** Highest contribution (~₹19M)
-* **UPI:** Second highest (~₹14M)
-* **Credit & Debit Cards:** Very low usage
-
-📌 *Cash dominates payments — digital adoption has strong growth potential.*
-
----
-
-## 🔹 Vehicle Type Performance
-
-![Vehicle Type Dashboard](images/Vehicle-Type.jpg)
-
-### Insights
-
-* **E-Bike and Prime Sedan** generate the highest booking value
-* **Auto rides cover short distances**, suitable for last-mile travel
-* Bikes and E-Bikes contribute significantly to total distance traveled
-
-📌 *Different vehicle types serve different trip purposes.*
-
----
-
 ## 🔹 Ratings Analysis
 
-![Ratings Dashboard](images/Ratings.png)
+![Ratings Dashboard](Ratings.png)
 
 ### Driver Ratings
 
